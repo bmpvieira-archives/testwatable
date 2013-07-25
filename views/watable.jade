@@ -12,11 +12,7 @@ block content
         i.icon-spinner.icon-spin
         |  Loading all data, might take some seconds...
 
-append css
-  link(href="#{cdn}/css/watable.92e5f039848beddd90de47ddd6accd4a.css", rel='stylesheet')
-
 append js
-  script(src="#{cdn}/js/jquery.watable.0438737109da875b9f571caabb359abb.min.js")
   script
     //- Initialize Watable
     var usersWatable = $('#users-table').WATable({
@@ -26,6 +22,7 @@ append js
       pageSizes: [100,200,500,'All'],
       filter: true,
       columnPicker: true,
+      checkboxes: true,
       tableCreated: function(data) {
         $('#loading-users-table').hide();
       }

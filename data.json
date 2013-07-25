@@ -1,212 +1,33 @@
 {
-    "id": 1,
-    "jsonrpc": "2.0",
-    "total": 41,
-    "result": [
-        {
-            "email": "watkinswashington@zboo.com",
-            "firstname": "Delaney",
-            "lastname": "Short"
-        },
-        {
-            "email": "delaneyshort@zboo.com",
-            "firstname": "Aurelia",
-            "lastname": "Barrera"
-        },
-        {
-            "email": "aureliabarrera@zboo.com",
-            "firstname": "Paulette",
-            "lastname": "Fry"
-        },
-        {
-            "email": "paulettefry@zboo.com",
-            "firstname": "Dickson",
-            "lastname": "Osborn"
-        },
-        {
-            "email": "dicksonosborn@zboo.com",
-            "firstname": "Knight",
-            "lastname": "Carroll"
-        },
-        {
-            "email": "knightcarroll@zboo.com",
-            "firstname": "Reed",
-            "lastname": "Robertson"
-        },
-        {
-            "email": "reedrobertson@zboo.com",
-            "firstname": "Mable",
-            "lastname": "Valentine"
-        },
-        {
-            "email": "mablevalentine@zboo.com",
-            "firstname": "Rosella",
-            "lastname": "Forbes"
-        },
-        {
-            "email": "rosellaforbes@zboo.com",
-            "firstname": "Stacie",
-            "lastname": "Morales"
-        },
-        {
-            "email": "staciemorales@zboo.com",
-            "firstname": "Maynard",
-            "lastname": "Chaney"
-        },
-        {
-            "email": "maynardchaney@zboo.com",
-            "firstname": "Sheena",
-            "lastname": "French"
-        },
-        {
-            "email": "sheenafrench@zboo.com",
-            "firstname": "Brooke",
-            "lastname": "Boyle"
-        },
-        {
-            "email": "brookeboyle@zboo.com",
-            "firstname": "Gamble",
-            "lastname": "Duran"
-        },
-        {
-            "email": "gambleduran@zboo.com",
-            "firstname": "Benson",
-            "lastname": "Maddox"
-        },
-        {
-            "email": "bensonmaddox@zboo.com",
-            "firstname": "Clay",
-            "lastname": "Cherry"
-        },
-        {
-            "email": "claycherry@zboo.com",
-            "firstname": "Hess",
-            "lastname": "Mckee"
-        },
-        {
-            "email": "hessmckee@zboo.com",
-            "firstname": "Cassie",
-            "lastname": "Marsh"
-        },
-        {
-            "email": "cassiemarsh@zboo.com",
-            "firstname": "Durham",
-            "lastname": "Foley"
-        },
-        {
-            "email": "durhamfoley@zboo.com",
-            "firstname": "Donaldson",
-            "lastname": "Daniel"
-        },
-        {
-            "email": "donaldsondaniel@zboo.com",
-            "firstname": "Dyer",
-            "lastname": "Mayer"
-        },
-        {
-            "email": "dyermayer@zboo.com",
-            "firstname": "Jacobs",
-            "lastname": "Watkins"
-        },
-        {
-            "email": "jacobswatkins@zboo.com",
-            "firstname": "Ilene",
-            "lastname": "Simmons"
-        },
-        {
-            "email": "ilenesimmons@zboo.com",
-            "firstname": "Eugenia",
-            "lastname": "Walls"
-        },
-        {
-            "email": "eugeniawalls@zboo.com",
-            "firstname": "Snyder",
-            "lastname": "Dudley"
-        },
-        {
-            "email": "snyderdudley@zboo.com",
-            "firstname": "Lowe",
-            "lastname": "Alvarez"
-        },
-        {
-            "email": "lowealvarez@zboo.com",
-            "firstname": "Tanya",
-            "lastname": "Rowland"
-        },
-        {
-            "email": "tanyarowland@zboo.com",
-            "firstname": "Hatfield",
-            "lastname": "Bowman"
-        },
-        {
-            "email": "hatfieldbowman@zboo.com",
-            "firstname": "Melba",
-            "lastname": "Meyers"
-        },
-        {
-            "email": "melbameyers@zboo.com",
-            "firstname": "Stout",
-            "lastname": "Lane"
-        },
-        {
-            "email": "stoutlane@zboo.com",
-            "firstname": "Petra",
-            "lastname": "Mueller"
-        },
-        {
-            "email": "petramueller@zboo.com",
-            "firstname": "Peggy",
-            "lastname": "Morrison"
-        },
-        {
-            "email": "peggymorrison@zboo.com",
-            "firstname": "Banks",
-            "lastname": "Herring"
-        },
-        {
-            "email": "banksherring@zboo.com",
-            "firstname": "Ramsey",
-            "lastname": "Lang"
-        },
-        {
-            "email": "ramseylang@zboo.com",
-            "firstname": "Campos",
-            "lastname": "Grant"
-        },
-        {
-            "email": "camposgrant@zboo.com",
-            "firstname": "Linda",
-            "lastname": "Ward"
-        },
-        {
-            "email": "lindaward@zboo.com",
-            "firstname": "Madeline",
-            "lastname": "Phillips"
-        },
-        {
-            "email": "madelinephillips@zboo.com",
-            "firstname": "Gillespie",
-            "lastname": "Evans"
-        },
-        {
-            "email": "gillespieevans@zboo.com",
-            "firstname": "Moss",
-            "lastname": "Porter"
-        },
-        {
-            "email": "mossporter@zboo.com",
-            "firstname": "Malone",
-            "lastname": "Vinson"
-        },
-        {
-            "email": "malonevinson@zboo.com",
-            "firstname": "Penelope",
-            "lastname": "Tanner"
-        },
-        {
-            "email": "penelopetanner@zboo.com",
-            "firstname": "Josefina",
-            "lastname": "Stephenson"
-        }
-    ]
+  "cols": {
+    "email": {
+      "index": 1,
+      "type": "string",
+      "friendly": "E-mail",
+      "unique": true,
+      "tooltip": "Please do not remove<br>this column if you<br>intend to download<br>a CSV, since it's<br>used as key identifier"
+    },
+    "firstname": {
+      "index": 2,
+      "type": "string",
+      "friendly": "First name"
+    },
+    "lastname": {
+      "index": 3,
+      "type": "string",
+      "friendly": "Last name"
+    }
+  },
+  "rows": [
+    {
+      "email": "hamptonmayo@zboo.com",
+      "firstname": "Hampton",
+      "lastname": "Mayo"
+    },
+    {
+      "email": "latishadavidson@zboo.com",
+      "firstname": "Latisha",
+      "lastname": "Davidson"
+    }
+  ]
 }
